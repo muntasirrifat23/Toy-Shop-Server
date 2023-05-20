@@ -9,6 +9,7 @@ require('dotenv').config()
 app.use(express.json())
 app.use(cors());
 
+const toyData = require('./data.json');
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.isaiemh.mongodb.net/?retryWrites=true&w=majority`;
@@ -40,6 +41,10 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
   res.send("Assignment-11");
 })
+
+app.get('/data', (req, res) => {
+    res.send(toyData);
+  })
 
 app.listen(port, () => {
     console.log(`port is: ${port}`)
