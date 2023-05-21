@@ -19,47 +19,5 @@
         "name": "Teddy",
         "price": 29.99,
         "rating": 4.8
-    },
-    {
-        "id": 4,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kLqnWUChdsFp1Myt9KyNZCfbwBxQHDsmkg&usqp=CAU",
-        "name": "Illustrations",
-        "price": 14.9,
-        "rating": 4.5
-    },
-    {
-        "id": 5,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIYCm3rRACQgCnMiq-_h0jyTPm3yQMgzyLA&usqp=CAU",
-        "name": "Online Toy",
-        "price": 14.99,
-        "rating": 4.0
-    },
-    {
-        "id": 6,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUbJc1KJxvetRxEBb79P1YjZw9xOd4ChP7w&usqp=CAU",
-        "name": "Toy truck",
-        "price": 11.99,
-        "rating": 4.0
-    },
-    {
-        "id": 7,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQJd-muLxWqCOdxHZ1NwXRDY-ZK_k8VODWUQ&usqp=CAU",
-        "name": "Robot",
-        "price": 14.99,
-        "rating": 4.1
-    },
-    {
-        "id": 8,
-        "image": "data:image/jpeg;base64,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",
-        "name": "Toy Girl",
-        "price": 12.99,
-        "rating": 4.2
-    },
-    {
-        "id": 9,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJp5bmSyuVOPx60gqvMlmqUaOWx6Ae5dJuw&usqp=CAU",
-        "name": "Girls toy Set",
-        "price": 39.99,
-        "rating": 4.7
     }
 ]
