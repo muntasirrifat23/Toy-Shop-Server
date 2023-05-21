@@ -11,6 +11,8 @@ app.use(cors());
 
 const toyData = require('./data.json');
 const carData = require('./car.json');
+const robotData = require('./robot.json');
+const girlsData = require('./girls.json');
 
 
 // const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.isaiemh.mongodb.net/?retryWrites=true&w=majority`;
@@ -57,8 +59,17 @@ app.get('/', (req, res) => {
 app.get('/data', (req, res) => {
     res.send(toyData);
   })
+
 app.get('/car', (req, res) => {
     res.send(carData);
+  })
+
+app.get('/robot', (req, res) => {
+    res.send(robotData);
+  })
+
+app.get('/girls', (req, res) => {
+    res.send(girlsData);
   })
 
 app.listen(port, () => {

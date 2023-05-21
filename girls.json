@@ -1,0 +1,23 @@
+[
+    {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTvK6qmOI-QTVsQFVEPnmW4jgRbiezVxSwuQ&usqp=CAU",
+        "name": "Toy Camera",
+        "price": 39.99,
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKrC5AbgjP9xnCZnog_F4hRUlSn8cYJeK9tw&usqp=CAU",
+        "name": "Toy Bag",
+        "price": 39.99,
+        "rating": 4.7
+    },
+    {
+        "id": 9,
+        "image": "https://img.freepik.com/free-photo/cute-plush-toys-arrangement_23-2150312314.jpg",
+        "name": "Toy Doll",
+        "price": 39.99,
+        "rating": 4.7
+    }
+]
